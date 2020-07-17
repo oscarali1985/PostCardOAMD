@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: "Segoe UI";
+}
+table {
+    background-color: white;
+}
+#tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+#tdb {
+    border-bottom: solid;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+  font-size: 32px;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
